@@ -1,0 +1,20 @@
+{
+  "name": "frontend-code-review-interview",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.2.0",
+    "@rsbuild/plugin-react": "^1.2.0",
+    "gh-pages": "^6.1.1"
+  }
+}
